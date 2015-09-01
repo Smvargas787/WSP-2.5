@@ -5,6 +5,10 @@
 
 
 /* HEADER ============================== */
+header, section{
+    background-color: #444444;
+    color: white;
+}
 
 /* ABOUT ============================== */
 
