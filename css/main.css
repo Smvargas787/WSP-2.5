@@ -18,7 +18,7 @@ header, section{
     margin: auto 0;
 }
 
-h1,h2 {
+h1,h2, h3{
     font-weight: bold;
     font-size: 24px;
     padding: 10px;
@@ -34,22 +34,27 @@ header p{
     position: relative;
     left: 40px;
     letter-spacing: 3px;
-    padding: 3px;
+    padding: 7px;
     /*text-transform: uppercase;*/
 
 }
-p:last-of-type{
-    margin-right: 500px;
-    padding: 10px;
-}
+/*p:last-of-type{*/
+    /*margin-right: 500px;*/
+    /*padding: 10px;*/
+/*}*/
 
 img{
     padding: 10px;
 }
 
-
 /* ABOUT ============================== */
 
+article h2:first-child{
+    float: right;
+    width: 600px;
+    position: relative;
+    bottom: 400px;
+}
 
 
 /* COMPONENTS ============================== */
