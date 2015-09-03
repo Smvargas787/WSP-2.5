@@ -14,7 +14,7 @@ body{
 header, section{
     /*background-color: #444444;*/
     color: #fff;
-    max-width: 960px;
+    max-width: 1200px;
     margin: auto 0;
 }
 
@@ -43,17 +43,39 @@ header p{
     /*padding: 10px;*/
 /*}*/
 
-img{
-    padding: 10px;
+.bio_pic{
+    margin-left: 39px;
+    margin-bottom: 10px;
 }
 
 /* ABOUT ============================== */
 
-article h2:first-child{
+article:nth-of-type(2){
     float: right;
-    width: 600px;
-    position: relative;
-    bottom: 400px;
+    width: 800px;
+    margin-top: -390px;
+    /*position: relative;*/
+    /*bottom: 400px;*/
+}
+
+article:nth-of-type(2) h2{
+    margin-bottom: 10px;
+    left: 0;
+
+}
+
+article:nth-of-type(2) p{
+    line-height: 25px;
+}
+
+/*article:nth-of-type(3){*/
+    /*margin: 0 auto;*/
+    /*width: 900px;*/
+/*}*/
+
+a{
+    color: #ffffff;
+    font-weight: bold;
 }
 
 
