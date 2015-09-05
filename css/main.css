@@ -22,10 +22,11 @@ h1,h2, h3{
     font-weight: bold;
     font-size: 24px;
     padding: 10px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     position: relative;
     left: 40px;
     border-bottom: solid 2px #ffffff;
+    color: #9C9C9C;
 }
 
 /*Paragraphs*/
@@ -38,6 +39,18 @@ header p{
     /*text-transform: uppercase;*/
 
 }
+
+section p:nth-of-type(3){
+    position: relative;
+    top: 10px;
+}
+
+section p{
+    padding-top: 10px;
+    line-height: 25px;
+    font-family: "Courier New", Courier, monospace;
+}
+
 /*p:last-of-type{*/
     /*margin-right: 500px;*/
     /*padding: 10px;*/
@@ -66,6 +79,7 @@ article:nth-of-type(2) h2{
 
 article:nth-of-type(2) p{
     line-height: 25px;
+    margin-bottom: 23px;
 }
 
 /*article:nth-of-type(3){*/
@@ -75,17 +89,20 @@ article:nth-of-type(2) p{
 
 /*View Component Link*/
 a{
-    color: #ffffff;
+    color: #171717;
     font-weight: bold;
-    border: solid 3px #000;
-    padding: 5px;
-    background-color: #000000;
+    border: solid 1px #A9A9A9;
+    padding: 2px;
+    background-color: #A9A9A9;
     border-radius: 4px;
-
+    position: relative;
+    top: 10px;
+    float: right;
 }
 
 /* COMPONENTS ============================== */
 
 section:nth-of-type(2), section:nth-of-type(3), section:nth-of-type(4), section:nth-of-type(5), section:nth-of-type(6){
     margin: 0 auto;
+    margin-bottom: 60px;
 }
