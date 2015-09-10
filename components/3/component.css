@@ -1,4 +1,41 @@
-/* Component Stylesheet 
+/* Component Stylesheet
+
 ============================================================
 ============================================================*/
 
+footer{
+    background-color: #171717;
+    margin: 0 auto;
+    max-width: 1400px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 100px;
+
+}
+
+a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+}
+
+section a{
+    padding: 20px;
+    background-color:#fa8841 ;
+    border-radius: 3px;
+}
+
+p{
+    color: #5d5f62;
+}
+
+section{
+    margin-left: 430px;
+    position: relative;
+    bottom: 126px;
+
+}
