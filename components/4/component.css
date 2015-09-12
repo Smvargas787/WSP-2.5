@@ -2,3 +2,23 @@
 ============================================================
 ============================================================*/
 
+body{
+    background-color: #03091f;
+    max-width: 100px;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a{
+    color: #ffffff;
+}
+
+.greenbox{
+    border: 5px solid #5ac181;
+    background-color: #5ac181;
+    border-radius: 4px;
+    padding: 6px;
+}
