@@ -14,7 +14,7 @@ body{
 section{
     max-width: 1024px;
     margin: 0 auto;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     overflow: hidden;
 }
 
@@ -23,6 +23,10 @@ h1{
     margin-bottom: 3rem;
     color: #e47d33;
     font-size: 30px;
+}
+
+h2{
+    font-weight: 600;
 }
 
 strong{
@@ -39,11 +43,19 @@ article{
 
 a{
     float: right;
-    margin-top: -25px;
-    c
+    margin-top: -23px;
+    color: #ffffff;
 }
 
 article h2, p{
     width: 75%;
     color: #fff;
 }
+
+/*img{*/
+    /*position: relative;*/
+    /*top: -40px;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*z-index: -1;*/
+/*}*/
