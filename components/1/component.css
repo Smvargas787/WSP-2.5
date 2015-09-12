@@ -2,3 +2,42 @@
 ============================================================
 ============================================================*/
 
+
+body{
+    background-color: #ffffff;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    border-bottom: solid 1px #dedede;
+}
+
+p, article h3{
+    text-align: center;
+}
+
+article h3{
+
+    font-weight: 600;
+}
+
+strong{
+    color: #4dbd93;
+}
+
+section{
+    margin: 0 auto;
+    max-width: 1000px;
+    /*border: solid 1px red;*/
+}
+
+article{
+    float: left;
+    margin-top: 50px;
+    /*border: solid 1px red;*/
+    margin-right: 60px;
+    position: relative;
+    left: 50px;
+}
