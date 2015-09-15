@@ -6,15 +6,21 @@
 footer{
     background-color: #171717;
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1200px;
     font-family: helvetica, arial, sans-serif;
 }
 
-nav li {
+nav ul li {
     display: inline-block;
     margin-top: 100px;
-
 }
+
+nav ul{
+    position: relative;
+    left: 140px;
+    top: 20px;
+}
+
 
 a {
     color: #ffffff;
@@ -27,15 +33,22 @@ section a{
     padding: 20px;
     background-color:#fa8841 ;
     border-radius: 3px;
+    position: relative;
+    left: 100px;
+    bottom: 35px;
+
 }
 
 p{
     color: #5d5f62;
+    position: relative;
+    left: 140px;
 }
 
 section{
     margin-left: 430px;
     position: relative;
-    bottom: 126px;
+    bottom: 85px;
+    left: 210px;
 
 }
